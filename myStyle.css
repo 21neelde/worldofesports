@@ -1,0 +1,48 @@
+  body {
+      background-color: #BBBBBB;
+    }
+	
+	.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+	}
+	
+	.container {
+    position: relative;
+    text-align: center;
+    color: white;
+	}
+	
+	.containterblack {
+	position: relative;
+    text-align: center;
+    color: black;
+	}
+	
+	.centered {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	font-size: 70px;
+	color: white;
+	}
+
+	.source {
+	font-size: 10px;
+	}
+    
+	.column {
+    float: left;
+    width: 23%;
+    padding: 5px;
+	}
+
+	.row::after {
+    content: "";
+    clear: both;
+    display: table;
+	}
+	
