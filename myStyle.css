@@ -10,6 +10,12 @@
     margin-right: auto;
     width: 80%;
 	}
+
+    .column3 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+	}
 	
 	.container {
     position: relative;
