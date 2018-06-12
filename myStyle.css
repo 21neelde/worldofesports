@@ -16,6 +16,13 @@
     width: 33.33%;
     padding: 5px;
 	}
+
+
+    .column5 {
+    float: left;
+    width: 20%;
+    padding: 5px;
+	}
 	
 	.container {
     position: relative;
